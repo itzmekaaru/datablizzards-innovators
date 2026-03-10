@@ -52,6 +52,6 @@ banking-medallion-snowflake/
 │
 └── docs/
     ├── problem_statement.md
-    ├── business_rules.md
-    ├── data_quality_rules.md
-    └── kpis.md
+    ├── Flow Diagrams
+    ├── Dashboard_Showcase showing kpi's
+    └── Rough_Sketches
