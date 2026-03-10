@@ -45,4 +45,7 @@ VALUES (
     S.credit_score,
     S.kyc_status,
     CURRENT_TIMESTAMP
+
 );
+
+ALTER TASK accounts_silver_task RESUME;
