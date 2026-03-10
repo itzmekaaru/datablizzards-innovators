@@ -52,4 +52,7 @@ S.device_info,
 S.ip_address,
 S.is_flagged,
 CURRENT_TIMESTAMP
+
 );
+
+ALTER TASK TASK_TRANSACTIONS_INCREMENTAL RESUME;
