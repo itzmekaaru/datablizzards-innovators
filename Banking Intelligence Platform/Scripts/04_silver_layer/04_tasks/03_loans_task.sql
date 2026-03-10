@@ -25,4 +25,7 @@ AND emi_amount > 0
 AND dpd_days >= 0
 AND sanction_date <= CURRENT_DATE
 AND UPPER(TRIM(status)) IN ('ACTIVE','CLOSED','NPA')
+
 AND UPPER(TRIM(loan_type)) IN ('GOLD','PERSONAL','EDUCATION','AUTO','HOME');
+
+ALTER TASK LOAD_SILVER_LOANS RESUME;
